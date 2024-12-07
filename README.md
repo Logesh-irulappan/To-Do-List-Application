@@ -12,13 +12,20 @@ JavaScript Interactivity:
 
 # Key Features:
   Add new tasks with a title and description.
+  
   Edit existing tasks directly in the interface.
+  
   Delete tasks as needed.
+  
   Real-time updates and smooth interaction across the platform.
 
 # Technologies Used:
   Node.js for server-side development
+  
   PostgreSQL for task data storage
+  
   EJS for dynamic front-end rendering
+  
   CSS for responsive styling
+  
   JavaScript for front-end interactivity
