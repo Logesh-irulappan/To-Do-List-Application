@@ -1,5 +1,4 @@
 # To-Do-List-Application
-  A full-stack To-Do List app built with Node.js, PostgreSQL, EJS, CSS, and JavaScript. Users can add, edit, and delete tasks. The back-end manages task data and CRUD operations, while the front-end dynamically displays tasks and allows for real-time updates and interaction, offering a seamless user experience.
 
 # Back-End Development:
   The back-end of the application is powered by Node.js, allowing for efficient handling of server requests and task data management. Using PostgreSQL, the app stores tasks in a relational database, allowing users to manage task information persistently. The server is responsible for managing CRUD (Create, Read, Update, Delete) operations, ensuring tasks can be added, retrieved, edited, and deleted as needed.
