@@ -1,0 +1,90 @@
+
+* {
+    margin: 5px;
+    color: whitesmoke;
+    background-color: rgb(30, 27, 27);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    height: 90vh;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    height: fit-content;
+    /* min-height: 300px;    */
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px ridge whitesmoke;
+    border-radius: 7px;
+}
+
+#heading {
+    /* border: 2px solid whitesmoke;
+    border-radius: 7px; */
+    border-bottom: 2px solid whitesmoke;
+    padding: 10px 5px;
+}
+
+.items {
+    height: fit-content;
+    max-height: 400px;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+}
+
+.items .item p {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 7px;
+}
+
+.item .hidden {
+    background-color: blue;
+    display: none;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+form button.add {
+    font-size: x-large;
+    padding: 1px 7px;
+    cursor: pointer;
+}
+
+form input[type="text"] {
+    width: 270px;
+}
+
+form input[type="text"]:focus {
+    outline: none;
+}
+
+button.edit {
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button.edit .icon {
+    height: 20px;
+}
